@@ -1,0 +1,243 @@
+@font-face {
+  font-family: rooster;
+  src: url(./public/ROOSTER\ PERSONAL\ USE.ttf);
+}
+
+@font-face {
+  font-family: greenline;
+  src: url(./public/GERALDINE\ PERSONAL\ USE.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 1vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+#page1 {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  #topnav {
+    background-color: #2a491d;
+    width: 100%;
+    padding: 0 2rem 0 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #left-topnav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+
+      > span {
+        color: #8eb481;
+        font-size: 0.7rem;
+        font-family: "Source Sans 3", sans-serif;
+      }
+
+      #left-topnav-socialicon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        color: white;
+        background-color: #223d18;
+        height: 40px;
+        padding: 0 2rem;
+
+        > i {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    #right-topnav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      font-family: "Source Sans 3", sans-serif;
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #8eb481;
+        font-size: 0.7rem;
+        > i {
+          color: #fbb936;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  #buttomnav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #left-buttomnav {
+      width: 13%;
+      background-color: #2a491d;
+      position: relative;
+      height: 80px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+
+      > h1 {
+        font-family: rooster;
+        font-size: 2.3rem;
+        font-weight: 500;
+        color: white;
+      }
+
+      > img {
+        height: 50px;
+        position: absolute;
+        top: -20px;
+      }
+    }
+    #right-buttomnav {
+      padding: 0 2rem;
+      width: 87%;
+      background-color: #193111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+
+      #left-right-buttonnav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+
+        > a {
+          text-decoration: none;
+          color: #8eb481;
+          font-size: 0.9rem;
+          font-family: gilroy;
+        }
+      }
+
+      #right-right-buttonnav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        > span {
+          height: 50px;
+          width: 50px;
+          background-color: #febd3f;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          > i {
+            font-weight: 600;
+          }
+        }
+
+        > button {
+          height: 50px;
+          width: 140px;
+          padding: 14px 20px;
+          border-radius: 40px;
+          background-color: #50a624;
+          border: none;
+          outline: none;
+          color: white;
+          font-size: 0.85em;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  #hero-banner {
+    flex-grow: 1;
+    background-image: url(./public/Vegetables_Composition_No_Ash.png);
+    background-size: cover;
+    background-position: center;
+
+    > h3 {
+      font-family: "Playwrite AU QLD", cursive;
+      color: #8eb481;
+      font-size: 0.8rem;
+      font-weight: 500;
+      // background-color: red;
+      margin-top: 10.4rem;
+      padding-left: 14rem;
+    }
+
+    > h1 {
+      color: white;
+      padding-left: 14rem;
+      margin-top: 2rem;
+      font-size: 6.5rem;
+      line-height: 6rem;
+    }
+
+    #hero-banner-buttons{
+    display: flex;
+    align-items: center;
+    padding-left: 14rem;
+    margin-top: 2rem;
+    gap: 20px;
+
+    >button:nth-child(1){
+      background-color: #F3B734;
+      padding: 14px 35px;
+      border-radius: 35px;
+      border: none;
+      color: white;
+      outline: none;
+      font-size: .85rem;
+    }
+    >button:nth-child(2){
+      background-color: #4A9E25;
+      padding: 14px 35px;
+      border-radius: 35px;
+      border: none;
+      color: white;
+      outline: none;
+      font-size: .85rem;
+    }
+
+
+    }
+
+  }
+}
+
+
+
+
+
